@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/appstyle.css">
+        <!--  Include the raphael library from the jslibs directory  -->
+        <script type="text/javascript" src="jslibs/raphael.js"></script>
+        <!--  Use the require.js module loader, and tell it where our main JavaScript file is  -->
+        <script type="text/javascript" data-main="appscripts/main.js" src="jslibs/require.js"> </script>
+        <title>Final Project</title>
+        <link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
+
+<!-- style="cursor: url(http://cur.cursors-4u.net/others/oth-5/oth498.cur), auto !important;" -->
+        <style>
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 8px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        </style>
+      
+    </head>
+
+
+  <body>
+  <!--   <header><p id="changeme"> Hello there </p>
+    
+    </header> -->
+    <div style ="text-align: right; color: white"><span style="float:left"><input class="button" type="button" id="button" value="easy"></span><span>SCORE: <span id="score">0</span></span></div>
+
+    <div id='main'>
+        <div id="centerDiv" style="cursor: url(img/cloudcur.png), auto !important;"> </div>  <!--  <article>   article  </article> -->
+
+    </div>
+
+    <footer><h3>High Scorers:</h3>
+        <ol>
+            <li style="color: #ff4f4f"><span id ="name0" style="float: left"></span><span id="score0" style="float: right"></span></li>
+            <li style="color: #ff8c4f"><span id ="name1" style="float: left"></span><span id="score1" style="float: right"></span></li>
+            <li style="color: #fffc4f"><span id ="name2" style="float: left"></span><span id="score2" style="float: right"></span></li>
+            <li style="color: #5ef9b4"><span id ="name3" style="float: left"></span><span id="score3" style="float: right"></span></li>
+            <li style="color: #5ea6f9"><span id ="name4" style="float: left"></span><span id="score4" style="float: right"></span></li>
+        </ol>
+
+        <!-- <div class="slidecontainer">
+          <input type="range" min="0" max="642" value="642" step = "1" class="slider" id="myRange">
+        </div>
+        <input type="button" value="stop" id="stop">
+        <input type="button" value="go" id="go"> -->
+
+        <p> Music and Rabbit asset: MapleStory(SEA) </p>
+
+    </footer>
+  </body>
+</html>
+
